@@ -1,2 +1,2 @@
 # Mobile-first-Responsive-Layout
- Second Treehouse
+ Second Treehouse Project
