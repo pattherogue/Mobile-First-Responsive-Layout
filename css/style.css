@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* Header + Nav Bar*/
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    margin: 15px 15px;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid white;
+    width: auto;
+   
+}
+
+li {
+    border-bottom: 2px solid whitesmoke;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+    padding: 8px 16px;
+    background-color: white;
+}
+
+li a:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+li :last-child {
+    border-bottom: none;
+}
+
+/* Profile */
+.profile {
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+#profile-image {
+    padding: 40px 40px;
+}
+
+#profile-text {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+}
