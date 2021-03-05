@@ -1,2 +1,4 @@
 # Mobile-first-Responsive-Layout
- Second Treehouse
+ Second Treehouse Project
+ 
+ Looking to focus on flexbox and media queries. 
