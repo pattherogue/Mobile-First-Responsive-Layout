@@ -13,6 +13,7 @@ header {
 
 h1 {
     font-size: 2rem;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -51,8 +52,8 @@ li :last-child {
 }
 
 /* Profile */
-.profile {
-    margin: 15px 15px;
+#profile {
+    margin: 20px 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,14 +61,65 @@ li :last-child {
 }
 
 #profile-image {
-    padding: 40px 40px;
+    padding: 25px 25px;
+    max-width: 100%;
 }
 
 #profile-text {
     text-align: center;
+    background-color: whitesmoke;
 }
 
+/*Portfolio*/
+#portfolio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+#portfolio h2, h3, p {
+    text-align: center;
+    margin: 30px 30px;
+}
+
+#portfolio img {
+    max-width: 100%;
+}
+
+/*Contact*/
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
