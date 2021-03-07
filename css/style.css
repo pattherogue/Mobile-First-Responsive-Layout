@@ -144,12 +144,25 @@ footer a {
        flex-direction: row-reverse;
    }
    
-   #portfolio {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-      
-   }
+   #portfolio-container-1,
+   #portfolio-container-2,
+   #portfolio-container-3 {
+        display: flex;
+        padding: 0 15px;
+    }
 
-}
+    #image-1,
+    #image-2,
+    #image-3,
+    #image-4,
+    #image-5,
+    #iamge-6 {
+        padding: 0 5px;
+    }
+
+    #contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+
  
