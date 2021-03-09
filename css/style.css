@@ -14,6 +14,7 @@
 #name {
     padding: .5em 0;
     align-self: center;
+    margin-top: 1em;
 }
 
 .nav {
@@ -104,7 +105,6 @@ footer {
     justify-content: space-around;
 }
 
-
 p {
     margin: 1.5em 0;
 }
@@ -114,6 +114,116 @@ p a {
     color: black;
     font-weight: bold;
 }
+
+/* Media Queries */
+@media only screen and (min-width:768px) {
+    /* Header */
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 1.2em;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-bottom: 1.2em;
+    }
+
+    li a {
+        background-color: whitesmoke;
+    }
+
+    li a:hover {
+        border-bottom: 1px solid teal;
+        color: black;
+        background-color: whitesmoke;
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #profile img {
+        margin: 0 1.2em;
+    }
+
+    #profile p {
+        margin: 0 1.2em;
+        text-align: left;
+    }
+    
+    /* Portfolio */
+    #portfolio {
+        display: flex;
+        flex-direction: column
+    }
+
+    .container {
+        display: flex;    
+        flex-wrap: wrap;
+    }
+
+    #image-1,
+    #image-2,
+    #image-3,
+    #image-4,
+    #image-5,
+    #image-6 {
+        flex: 1 50%;
+    }
+
+    /* Contact */
+    #contact {
+        display: flex;
+    }
+
+    #contact p {
+        text-align: center;
+        width: 85%;
+    }
+
+    #contact-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    /* Header */
+    
+
+    
+
+
+
+   
+
+
+
+    /* Portfolio */
+    
+
+
+    #image-1,
+    #image-2,
+    #image-3,
+    #image-4,
+    #image-5,
+    #image-6 {
+        flex: 1 33%;
+    }
+
+
+
+}
+
 
 
 
