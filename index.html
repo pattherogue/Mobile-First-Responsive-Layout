@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,10 +20,10 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>    
        
-        <article id="profile"> 
+        <div id="profile"> 
             <img src="images/responsive-layout-profile.png" alt="Profile image of Paolo." id="profile-image">
             <p id="profile-text">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-        </article>
+        </div>
     </header>
     
 
@@ -82,8 +83,15 @@
     <hr>
 
     <footer>
-        <p><a href="#name">Paolo Gomez</a></p>
-        <p><a href="#name">BACK TO TOP</a></p>
+        <p><a href="#name" id="paolo">Paolo Gomez</a></p>
+        <p><a href="#name" id="back-to-top">BACK TO TOP</a></p>
+
+        <ul class="nav">
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>    
+
     </footer>
 </body>
 </html>
