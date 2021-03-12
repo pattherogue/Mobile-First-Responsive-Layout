@@ -133,10 +133,11 @@ p a {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-bottom: 1.2em;
+        margin-top: 2rem;
     }
 
     .nav {
+        margin-top: 1.2rem;
         display: flex;
         justify-content: center;
         text-decoration: none;
@@ -173,20 +174,23 @@ p a {
         flex-direction: column
     }
 
+    #image-1,
+    #image-2,
+    #image-3,
+    #image-4,
+    #image-5,
+    #image-6 {
+        flex: 1 50%;
+        padding: 0 15px;
+        min-height: 450px;
+    }
+
     .container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;     
+         
     }
-
-    .container section {
-        align-items: center;
-        width: 45%;
-    }
-
- 
 
     /* Contact */
     #contact {
@@ -211,11 +215,13 @@ p a {
 
     .footer-2 {
         display: flex;
-        flex-direction: row;
-        /*Need edit*/
+        margin: 1rem 1rem;
+        /*Needs Edit*/
     }
+
+ 
+
    
-}
 
 @media only screen and (min-width:1024px) {
     /* Header */
@@ -231,10 +237,19 @@ p a {
         justify-content: space-between;
         margin-top: 4rem;
         margin-left: 3rem;
+        margin-bottom: 3rem;
         width: 91%;
+      
+    }
 
-        
+    .laptop-nav {
+        display: flex;
+        list-style: none;
+        font-size: 19px
+    }
 
+    header #profile-text {
+        margin: 0 3rem;
     }
 
     /* Portfolio */
@@ -245,6 +260,8 @@ p a {
     #image-5,
     #image-6 {
         flex: 1 33%;
+        padding: 0 15px;
+        min-height: 450px;
     }
 
 
@@ -256,14 +273,14 @@ p a {
     }
 
     /* Footer */
-    footer #back-to-top {
+    .footer-1 #back-to-top {
         display: none;
     }
 
-    footer .nav {
+    .footer-2 .nav {
         display: flex;
-        justify-content: flex-end;
-        width: 75%;
+       justify-content: flex-end;
+         /*Needs Edit*/
     }
 
 }
