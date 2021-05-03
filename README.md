@@ -1,4 +1,8 @@
 # Mobile-first-Responsive-Layout
- Second Treehouse Project
+ Unit 02 Project 
  
- Looking to focus on flexbox and media queries. 
+In this project, my goal is to build a responsive, mobile-first layout using HTML and CSS. The layout demonstrates my understanding of responsive design by adjusting to accomodate small, medium, and large screen sizes.
+
+
+
+
